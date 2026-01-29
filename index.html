@@ -9,6 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     
+    <!-- TikTok Pixel Code Start -->
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+    var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+    ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+      ttq.load('D5TK2M3C77UCERU3J33G');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+    <!-- TikTok Pixel Code End -->
+    
     <style>
         /* CORE RESET & TOUCH OPTIMIZATION */
         :root {
@@ -346,14 +360,19 @@
             <nav>
                 <div class="logo">AI LIVESTREAM HOST</div>
                 <div class="nav-links">
-                    <a href="#masalah">Masalah</a>
-                    <a href="#fitur">Fitur</a>
-                    <a href="#cara">Cara Pakai</a>
-                    <a href="#demo">Demo</a>
-                    <a href="#pricing">Lisensi</a>
-                    <a href="#faq">FAQ</a>
+                    <a href="#masalah" onclick="ttq.track('ViewContent', {content_type: 'problem_section'});">Masalah</a>
+                    <a href="#fitur" onclick="ttq.track('ViewContent', {content_type: 'feature_section'});">Fitur</a>
+                    <a href="#cara" onclick="ttq.track('ViewContent', {content_type: 'howto_section'});">Cara Pakai</a>
+                    <a href="#demo" onclick="ttq.track('ViewContent', {content_type: 'demo_section'});">Demo</a>
+                    <a href="#pricing" onclick="ttq.track('ViewContent', {content_type: 'pricing_section'});">Lisensi</a>
+                    <a href="#faq" onclick="ttq.track('ViewContent', {content_type: 'faq_section'});">FAQ</a>
                 </div>
-                <a href="#pricing" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.85rem; min-height: auto;">Beli Lisensi</a>
+                <a href="#pricing" 
+                   class="btn btn-primary" 
+                   style="padding: 10px 20px; font-size: 0.85rem; min-height: auto;"
+                   onclick="ttq.track('SubmitForm', {content_name: 'AI Livestream Host', content_type: 'product', value: 149000});">
+                   Beli Lisensi
+                </a>
             </nav>
         </div>
     </header>
@@ -364,8 +383,16 @@
             <h1>Livestream dengan AI: <br><span class="accent-text">Host Virtual Otomatis untuk Creator & Seller.</span></h1>
             <p>Ubah livestream Anda menjadi mesin penjualan 24/7 yang bekerja secara cerdas. AI Virtual Host bukan sekadar bot; ia adalah asisten virtual profesional yang menjaga livestream tetap hidup.</p>
             <div class="hero-btns">
-                <a href="#pricing" class="btn btn-primary">Aktifkan Lifetime License</a>
-                <a href="#demo" class="btn btn-outline">Lihat Demo Kerja</a>
+                <a href="#pricing" 
+                   class="btn btn-primary"
+                   onclick="ttq.track('InitiateCheckout', {value: 149000, currency: 'IDR', content_name: 'AI Livestream Host License'});">
+                   Aktifkan Lifetime License
+                </a>
+                <a href="#demo" 
+                   class="btn btn-outline"
+                   onclick="ttq.track('ViewContent', {content_type: 'video_demo'});">
+                   Lihat Demo Kerja
+                </a>
             </div>
             <div class="hero-mockup">
                 <img src="https://res.cloudinary.com/dn5ppjuf3/image/upload/v1769498788/IMG_20260127_142551_bbfk9s.jpg" alt="Antarmuka AI Livestream Host">
@@ -653,6 +680,7 @@
                     style="width: 100%; font-size: 1.2rem; padding: 20px;"
                     target="_blank"
                     rel="noopener"
+                    onclick="ttq.track('InitiateCheckout', {value: 149000, currency: 'IDR', content_name: 'AI Livestream Host Lifetime License', content_type: 'product'});"
                 >
                     Aktifkan Lifetime License
                 </a>
@@ -708,7 +736,12 @@
                         <p>✅ <strong>Hemat Jutaan:</strong> Investasi sekali, profit berkali-kali.</p>
                     </div>
                 </div>
-                <a href="#pricing" class="btn btn-primary" style="padding: 20px 50px; font-size: 1.25rem; width: auto;">Saya Siap Livestream Tanpa Capek</a>
+                <a href="#pricing" 
+                   class="btn btn-primary" 
+                   style="padding: 20px 50px; font-size: 1.25rem; width: auto;"
+                   onclick="ttq.track('SubmitForm', {value: 149000, currency: 'IDR', content_name: 'AI Livestream Host Final CTA', content_type: 'product'});">
+                   Saya Siap Livestream Tanpa Capek
+                </a>
                 <div style="color: #ffcc00; font-weight: 600; font-size: 0.9rem; margin-top: 30px; display: flex; align-items: center; justify-content: center; gap: 8px;">
                     ⚠️ Harga perkenalan dan update gratis hanya berlaku untuk pembeli awal minggu ini.
                 </div>
@@ -724,34 +757,64 @@
     </footer>
 
     <script>
-        // FAQ Accordion Logic
-        document.querySelectorAll('.faq-question').forEach(button => {
-            button.addEventListener('click', () => {
-                const faqItem = button.parentElement;
-                
-                // Close other items
-                document.querySelectorAll('.faq-item').forEach(item => {
-                    if (item !== faqItem) item.classList.remove('active');
+        // TikTok Pixel Event Tracking untuk Video View
+        document.addEventListener('DOMContentLoaded', function() {
+            // Track video view saat video muncul di viewport
+            const videoContainer = document.querySelector('.video-container');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        ttq.track('ViewContent', {
+                            content_type: 'video',
+                            content_name: 'AI Livestream Host Demo'
+                        });
+                        observer.unobserve(entry.target);
+                    }
                 });
-                
-                // Toggle current item
-                faqItem.classList.toggle('active');
-            });
-        });
+            }, { threshold: 0.5 });
 
-        // Smooth Scroll for Navigation
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    e.preventDefault();
-                    const headerOffset = 70;
-                    const elementPosition = targetElement.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-                    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-                }
+            if (videoContainer) {
+                observer.observe(videoContainer);
+            }
+
+            // FAQ Accordion Logic
+            document.querySelectorAll('.faq-question').forEach(button => {
+                button.addEventListener('click', () => {
+                    const faqItem = button.parentElement;
+                    
+                    // Close other items
+                    document.querySelectorAll('.faq-item').forEach(item => {
+                        if (item !== faqItem) item.classList.remove('active');
+                    });
+                    
+                    // Toggle current item
+                    faqItem.classList.toggle('active');
+                    
+                    // Track FAQ interaction
+                    if (faqItem.classList.contains('active')) {
+                        const questionText = button.textContent.replace('+', '').trim();
+                        ttq.track('ViewContent', {
+                            content_type: 'faq',
+                            content_name: questionText
+                        });
+                    }
+                });
+            });
+
+            // Smooth Scroll for Navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        const headerOffset = 70;
+                        const elementPosition = targetElement.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                    }
+                });
             });
         });
     </script>
