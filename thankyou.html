@@ -1,137 +1,309 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terima Kasih - Pembelian Berhasil | AI Livestream Host</title>
+    
+    <!-- TikTok Pixel Code Start -->
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+    var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+    ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
 
-  <title>Pembayaran Berhasil | PreneurMastery</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      box-sizing: border-box;
-      font-family: "Inter", sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background: linear-gradient(135deg, #0f172a, #020617);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-    }
-
-    .card {
-      background: #020617;
-      border-radius: 16px;
-      max-width: 520px;
-      width: 90%;
-      padding: 40px 30px;
-      text-align: center;
-      box-shadow: 0 0 40px rgba(0,255,255,0.1);
-      border: 1px solid rgba(255,255,255,0.05);
-    }
-
-    .icon {
-      font-size: 60px;
-      margin-bottom: 15px;
-    }
-
-    h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
-      color: #22d3ee;
-    }
-
-    p {
-      font-size: 15px;
-      line-height: 1.6;
-      color: #cbd5f5;
-      margin-bottom: 20px;
-    }
-
-    .download-btn {
-      display: inline-block;
-      background: linear-gradient(135deg, #22d3ee, #0ea5e9);
-      color: #020617;
-      padding: 14px 30px;
-      border-radius: 10px;
-      font-weight: 600;
-      font-size: 16px;
-      text-decoration: none;
-      transition: 0.3s;
-      margin-top: 10px;
-    }
-
-    .download-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(34,211,238,0.4);
-    }
-
-    .info {
-      margin-top: 25px;
-      font-size: 13px;
-      color: #94a3b8;
-      border-top: 1px solid rgba(255,255,255,0.05);
-      padding-top: 15px;
-    }
-
-    .brand {
-      margin-top: 15px;
-      font-size: 12px;
-      color: #64748b;
-    }
-
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 24px;
-      }
-
-      .card {
-        padding: 30px 20px;
-      }
-    }
-  </style>
+      ttq.load('D5TK2M3C77UCERU3J33G');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+    <!-- TikTok Pixel Code End -->
+    
+    <style>
+        :root {
+            --bg-dark: #0a0c10;
+            --accent-cyan: #00f2ea;
+            --accent-green: #39FF14;
+            --text-main: #f0f6fc;
+            --text-muted: #8b949e;
+            --primary-gradient: linear-gradient(135deg, #00f2ea 0%, #007bff 100%);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        body {
+            background: var(--bg-dark);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .thankyou-container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            background: rgba(22, 27, 34, 0.8);
+            border-radius: 20px;
+            padding: 50px 30px;
+            border: 1px solid rgba(0, 242, 234, 0.2);
+            box-shadow: 0 20px 50px rgba(0, 242, 234, 0.1);
+        }
+        
+        .success-icon {
+            font-size: 4rem;
+            color: var(--accent-green);
+            margin-bottom: 20px;
+            animation: bounce 1s ease infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            color: var(--accent-cyan);
+            margin-bottom: 25px;
+        }
+        
+        .order-details {
+            background: rgba(0, 242, 234, 0.05);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: left;
+            border-left: 4px solid var(--accent-cyan);
+        }
+        
+        .order-details h3 {
+            color: var(--accent-cyan);
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .detail-item:last-child {
+            border-bottom: none;
+            font-weight: bold;
+            color: var(--accent-green);
+            font-size: 1.1rem;
+        }
+        
+        .next-steps {
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .next-steps h3 {
+            color: var(--accent-cyan);
+            margin-bottom: 15px;
+        }
+        
+        .next-steps ol {
+            padding-left: 20px;
+            color: var(--text-muted);
+        }
+        
+        .next-steps li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--primary-gradient);
+            color: #000;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .whatsapp-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .whatsapp-button:hover {
+            transform: translateY(-2px);
+            background: #128C7E;
+        }
+        
+        .warning-note {
+            background: rgba(255, 184, 0, 0.1);
+            border: 1px solid rgba(255, 184, 0, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #ffb800;
+        }
+        
+        @media (max-width: 768px) {
+            .thankyou-container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
 </head>
-
 <body>
-
-  <div class="card">
-
-    <div class="icon">🎉</div>
-
-    <h1>Pembayaran Berhasil!</h1>
-
-    <p>
-      Terima kasih telah melakukan pembelian.<br>
-      Akses produk AI Livestream kamu sudah aktif.
-    </p>
-
-    <a 
-      href="https://drive.google.com/file/d/1J_oIZ6NzT6TMcFZYojoytjoJnPx2LQIw/view?usp=drivesdk"
-      target="_blank"
-      class="download-btn"
-    >
-      ⬇ Download Sekarang
-    </a>
-
-    <div class="info">
-      Jika tombol tidak berfungsi, salin link berikut:
-      <br><br>
-      <small>
-        https://drive.google.com/file/d/1J_oIZ6NzT6TMcFZYojoytjoJnPx2LQIw/view?usp=drivesdk
-      </small>
+    <div class="thankyou-container">
+        <div class="success-icon">🎉</div>
+        
+        <h1>PEMBELIAN BERHASIL!</h1>
+        <h2>AI Livestream Host Lifetime License</h2>
+        
+        <p style="color: var(--text-muted); margin-bottom: 20px;">
+            Terima kasih telah mempercayai produk kami. Berikut detail pesanan Anda:
+        </p>
+        
+        <div class="order-details">
+            <h3>Detail Pesanan</h3>
+            
+            <div class="detail-item">
+                <span>Produk:</span>
+                <span>AI Livestream Host Lifetime License</span>
+            </div>
+            
+            <div class="detail-item">
+                <span>Harga:</span>
+                <span>Rp 149.000</span>
+            </div>
+            
+            <div class="detail-item">
+                <span>Status:</span>
+                <span style="color: var(--accent-green); font-weight: bold;">✅ LUNAS</span>
+            </div>
+            
+            <div class="detail-item">
+                <span>Order ID:</span>
+                <span>AIH-<?php echo date('YmdHis'); ?></span>
+            </div>
+            
+            <div class="detail-item">
+                <span>Tanggal:</span>
+                <span><?php echo date('d/m/Y H:i'); ?></span>
+            </div>
+        </div>
+        
+        <div class="next-steps">
+            <h3>Langkah Selanjutnya:</h3>
+            <ol>
+                <li>✅ Pembayaran telah dikonfirmasi secara otomatis</li>
+                <li>📧 Link download dan panduan instalasi akan dikirim ke email Anda dalam 1-5 menit</li>
+                <li>💻 Install aplikasi di PC/Laptop Windows Anda</li>
+                <li>🚀 Mulai livestream otomatis dengan AI Host</li>
+            </ol>
+        </div>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-top: 30px;">
+            <a href="#" class="cta-button" onclick="window.open('https://wa.me/6289519162626?text=Halo%20Admin,%20saya%20baru%20beli%20AI%20Livestream%20Host.%20Bisa%20dibantu?', '_blank');">
+                💬 Chat Admin via WhatsApp
+            </a>
+            
+            <a href="https://drive.google.com/file/d/1J_oIZ6NzT6TMcFZYojoytjoJnPx2LQIw/view?usp=drivesdk" 
+               class="cta-button"
+               target="_blank"
+               style="background: linear-gradient(135deg, #39FF14 0%, #00b300 100%);">
+                ⬇️ Download Sekarang
+            </a>
+        </div>
+        
+        <div class="warning-note">
+            <strong>⚠️ PERHATIAN:</strong> Jika email tidak diterima dalam 10 menit, cek folder spam atau hubungi admin WhatsApp di atas. Pastikan Anda menggunakan email yang valid.
+        </div>
     </div>
-
-    <div class="brand">
-      © 2026 PreneurMastery • All Rights Reserved
-    </div>
-
-  </div>
-
+    
+    <script>
+        // TikTok Pixel Purchase Event
+        document.addEventListener('DOMContentLoaded', function() {
+            // Track purchase event
+            ttq.track('CompletePayment', {
+                value: 149000,
+                currency: 'IDR',
+                content_name: 'AI Livestream Host Lifetime License',
+                content_type: 'product',
+                content_id: 'AIH-LIFETIME-001',
+                quantity: 1,
+                status: 'completed'
+            });
+            
+            // Track lead event
+            ttq.track('SubmitForm', {
+                value: 149000,
+                currency: 'IDR',
+                content_name: 'AI Livestream Host Purchase',
+                content_type: 'product'
+            });
+            
+            // Additional tracking for button clicks
+            document.querySelectorAll('.cta-button, .whatsapp-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    const buttonText = this.textContent.trim();
+                    ttq.track('Contact', {
+                        method: 'whatsapp',
+                        content_name: buttonText
+                    });
+                });
+            });
+            
+            // Track page view for thank you page
+            ttq.track('ViewContent', {
+                content_type: 'thankyou_page',
+                content_name: 'Purchase Success Page'
+            });
+            
+            // Console log for debugging
+            console.log('TikTok Pixel Purchase Event Fired: CompletePayment - Rp 149.000');
+        });
+    </script>
 </body>
 </html>
